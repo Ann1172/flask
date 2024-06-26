@@ -1,0 +1,8 @@
+{% for i in books %}
+<ul>
+    <li>
+        <img src="{{i.cover}}">
+{{i.name}} by  {{i.author}}
+    </li>
+</ul>
+{% endfor %}
